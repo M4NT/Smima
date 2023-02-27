@@ -8,7 +8,7 @@ import Helmet from '../components/Helmet/Helmet'
 import '../styles/home.css' 
 
 import { Container, Row, Col } from 'reactstrap'
-import heroImg from '../assets/images/hero-img.png'
+import heroImg from '../assets/images/hero-img.svg'
 
 import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
@@ -60,27 +60,20 @@ const Home = () => {
     <section className="hero__section">
       <Container>
         <Row>
-          <Col lg='6' md='6'>
             <div className="hero__content">
-              <p classname="hero__subtitle">Trending product in {year}</p>
-              <h2>Make Your Interior More Minimalistic & Modern</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p classname="hero__subtitle">5% OFF no primeiro mês</p>
+              <h2>Estar com nós, é apoiar a Natureza.</h2>
+              <p>Descubra uma nova forma de se conectar com a natureza e<br/>
+              cultivar um ambiente mais verde.</p>
               <motion.button whileTap={{scale: 1.03}}
               className="buy__btn">
-                <Link to='/shop'>SHOP NOW</Link></motion.button>
+                <Link to='/shop'>Veja mais</Link></motion.button>
             </div>
-          </Col>
-
-          <Col lg='6' md='6'>
-            <div className="hero__img">
-              <img src={heroImg} alt="" />
-            </div>
-          </Col>
         </Row>
       </Container>
     </section>
 
-    <Services/>
+    {/* <Services/> */}
     <section className='trending__products'>
       <Container>
         <Row>

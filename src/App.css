@@ -1,5 +1,5 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap");
 
 /*  css variables */
 :root {
@@ -7,11 +7,13 @@
   --card-bg-02: #d6e5fb;
   --card-bg-03: #ceebe9;
   --card-bg-04: #e2f2b2;
-  --primary-color: #0a1d37;
+  --primary-color:#50614A;
+  --secondary-color:#2C4031;
   --hero-bg: #d6e5fb;
   --heading-fontSize: 2rem;
   --small-text-color: #999;
-  --heading-text-color: #0a1d37;
+  --heading-text-color: #50614A;
+;
 }
 
 /* reset browser default */
@@ -22,7 +24,8 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Urbanist';
+  background-color: #EDEDE4;
 }
 
 h1,

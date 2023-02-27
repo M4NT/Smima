@@ -5,8 +5,11 @@ import './header.css'
 
 import {motion} from 'framer-motion'
 
-import logo from '../../assets/images/eco-logo.png'
-import userIcon from '../../assets/images/user-icon.png'
+import logo from '../../assets/images/LogoSmima.svg'
+import userIcon from '../../assets/images/user-icon.svg'
+import heartLine from '../../assets/images/heart-line.svg'
+import bagLine from '../../assets/images/bag-line.svg'
+import menuLine from '../../assets/images/menu-line.svg'
 
 import { Container, Row } from 'reactstrap';
 
@@ -57,9 +60,8 @@ const Header = () => {
       <Row>
         <div className="nav__wrapper">
           <div className="logo">
-            <img src={logo} alt="logo" />
             <div>
-              <h1>Multimart</h1>
+              <img src={logo} alt="logo" /> 
             </div>
           </div>
 
@@ -83,11 +85,11 @@ const Header = () => {
 
             <div className="nav__icons">
               <span className="fav__icon">
-                <i className="ri-heart-line"></i>
+                <img src={heartLine} alt="logo" /> 
                 <span className="badge">2</span>
               </span>
               <span className="cart__icon">
-                <i className="ri-shopping-bag-line"></i>
+                <img src={bagLine} alt="" /> 
                 <span className="badge">2</span>
               </span>
 
@@ -97,7 +99,7 @@ const Header = () => {
               </span>
               <div className="mobile__menu">
               <span onClick={menuToggle}>
-                <i className="ri-menu-line"></i>
+                <img src={menuLine} alt="logo" /> 
               </span>
             </div>
             </div>

@@ -13,12 +13,12 @@ const ProductCard = ({ item }) => {
 
   const addToCart = () => {
     dispatch(
-      cartActions.addItem({
-        id: item.id,
-        productName: item.productName,
-        price: item.price,
-        image: item.imgUrl,
-      })
+      // cartActions.addItem({
+      //   id: item.id,
+      //   productName: item.productName,
+      //   price: item.price,
+      //   image: item.imgUrl,
+      // })
     );
 
     alert("product added to the cart");
