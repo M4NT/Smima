@@ -9,6 +9,7 @@ import '../styles/home.css'
 
 import { Container, Row, Col } from 'reactstrap'
 import heroImg from '../assets/images/hero-img.svg'
+import vasoPlanta from '../assets/images/vaso-planta.svg'
 
 import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
@@ -71,6 +72,22 @@ const Home = () => {
             </div>
         </Row>
       </Container>
+    </section>
+
+    <section className='about__section'>
+    <div className='about__card hero__content'>
+          <Row>
+            <Col>
+              <img src={vasoPlanta} alt="" class='vaso__about'/> 
+            </Col>
+            <Col>
+              <div className='about__container'>
+                <h2 class='about__subtitle'>Sobre nós</h2>
+                <p class='about__subtitle' id='about__info'>Somos uma equipe de apaixonados por plantas e pela natureza, que acredita que a conexão com o meio ambiente é essencial para uma vida equilibrada e saudável. Além de oferecermos pacotes de assinatura de plantas, nosso objetivo é promover a conscientização sobre a importância da preservação da natureza e incentivar práticas sustentáveis. Queremos inspirar as pessoas a cuidar de suas plantas e a cuidar do planeta.</p>
+              </div>
+            </Col>
+          </Row>
+        </div>
     </section>
 
     {/* <Services/> */}

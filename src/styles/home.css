@@ -18,8 +18,8 @@
 
 .hero__content p{
     color: var(--primary-color);
-    line-height: 33px;
-    font-size: 1.3rem;
+    line-height: 110%;
+    font-size: 1rem;
     margin-top: -15px;
 }
 
@@ -71,6 +71,52 @@
 
 .store__btn a:hover {
     color: var(--primary-color);
+}
+
+
+.about__container {
+    margin-left: -120px !important;
+    padding: 20px;
+}
+
+.about__card {
+    background: rgba(245, 245, 245, 0.5);
+    border: 1px solid #FFFFFF;
+    box-shadow: 12px 9px 32px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+  
+    max-width: 720px;
+    width: 750px;
+    height: 320px;
+    padding: 5px;
+    top: 103.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    border-radius: 40px;
+    backdrop-filter: blur(15px);
+    z-index: 99;
+    text-align: left;
+}
+
+.about__subtitle h2 {
+    font-weight: 400 !important;
+}
+
+.about__subtitle p {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    margin-bottom: 25px;
+    /* margin-left: -60px !important; */
+}
+
+.vaso__about {
+    width: 300px;
+    height: 300px;
+    margin-left: -20px;
 }
 
 @media only screen and (max-width: 992px) {
