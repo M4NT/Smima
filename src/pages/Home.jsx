@@ -62,8 +62,8 @@ const Home = () => {
     <section className="hero__section">
       <Container>
         <Row>
-            <div className="hero__content">
-              <p classname="hero__subtitle">5% OFF no primeiro mês</p>
+            <div className='hero__content'>
+              <p classname='hero__subtitle'>5% OFF no primeiro mês</p>
               <h2>Estar com nós, é apoiar a Natureza.</h2>
               <p>Descubra uma nova forma de se conectar com a natureza e<br/>
               cultivar um ambiente mais verde.</p>
@@ -76,17 +76,20 @@ const Home = () => {
       </Container>
     </section>
 
-
     <section className='about__section'>
       <Container>
         <Row>
-          <div className='about__card' >
-                  <img src={vasoPlanta} alt="" class='vaso__about'/> 
-                <Col>
-                    <h2 class='about__subtitle'>Sobre nós</h2>
-                    <p class='about__subtitle' id='about__info'>Somos uma equipe de apaixonados por plantas e pela natureza, que acredita que a conexão com o meio ambiente é essencial para uma vida equilibrada e saudável. Além de oferecermos pacotes de assinatura de plantas, nosso objetivo é promover a conscientização sobre a importância da preservação da natureza e incentivar práticas sustentáveis. Queremos inspirar as pessoas a cuidar de suas plantas e a cuidar do planeta.</p>
-                </Col>
-          </div>
+          <Col lg='12' className='text-left'>
+            <div className='about__card' >
+                    <Col className='text-center'>
+                      <img src={vasoPlanta} alt="" class='vaso__about'/>
+                    </Col>
+                    <Col>
+                        <h2 className='about__title'>Sobre nós</h2>
+                        <p className='about__subtitle' id='about__info'>Somos uma equipe de apaixonados por plantas e pela natureza, que acredita que a conexão com o meio ambiente é essencial para uma vida equilibrada e saudável. Além de oferecermos pacotes de assinatura de plantas, nosso objetivo é promover a conscientização sobre a importância da preservação da natureza e incentivar práticas sustentáveis. Queremos inspirar as pessoas a cuidar de suas plantas e a cuidar do planeta.</p>
+                    </Col>
+            </div>
+          </Col>
         </Row>
       </Container>
     </section>
