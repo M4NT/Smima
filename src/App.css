@@ -25,7 +25,10 @@
 
 body {
   font-family: 'Urbanist';
-  background-color: #EDEDE4;
+  /* background-color: #EDEDE4; */
+  background-image: url("/src/assets/images/body-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,
@@ -64,10 +67,6 @@ img {
 
 section {
   padding: 60px 0px;
-}
-
-.about__section {
-  margin-top: 230px;
 }
 
 .section__title {

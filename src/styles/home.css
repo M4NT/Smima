@@ -1,12 +1,9 @@
 .hero__section {
-    background-image: url("/src/assets/images/hero-img.svg");
+    /* background-image: url("/src/assets/images/hero-img.svg"); */
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
+    background-size: cover;
     top: -15%;
-}
-
-.hero__section {
-    height: 730px;
 }
 
 .hero__content h2 {
@@ -85,12 +82,12 @@
     box-shadow: 12px 9px 32px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
+    flex-direction: row;
   
     max-width: 720px;
     width: 750px;
     height: 320px;
     padding: 5px;
-    top: 103.1%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -111,6 +108,16 @@
     text-align: left !important;
     margin-bottom: 25px;
     /* margin-left: -60px !important; */
+}
+
+.planta__about {
+    width: 850px;
+    height: 750px;
+    /* top: 71%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 0;
 }
 
 .vaso__about {
@@ -182,7 +189,4 @@
     width: 42%;
     }
 
-    .hero__section {
-        height: 350px;
-    }
 }
