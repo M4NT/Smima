@@ -1,27 +1,27 @@
 const serviceData = [
   {
-    icon: "ri-truck-line",
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    bg: "#fdefe6",
+    image: "/src/assets/images/planta-servico1.svg",
+    title: "Plantas para área interna.",
+    subtitle: "Comprar agora",
+    bg: "#F5F5F5",
   },
   {
-    icon: "ri-refresh-line",
-    title: "Easy Returns",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    bg: "#ceebe9",
+    image: "/src/assets/images/planta-servico2.svg",
+    title: "Plantas para escritório.",
+    subtitle: "Comprar agora",
+    bg: "#F5F5F5",
   },
   {
-    icon: "ri-secure-payment-line",
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    bg: "#e2f2b2",
+    image: "/src/assets/images/planta-servico3.svg",
+    title: "Plantas para jardim.",
+    subtitle: "Comprar agora",
+    bg: "#F5F5F5",
   },
   {
-    icon: "ri-exchange-dollar-line",
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    bg: "#d6e5fb",
+    image: "/src/assets/images/planta-servico4.svg",
+    title: "Hortas para cultivo.",
+    subtitle: "Comprar agora",
+    bg: "#F5F5F5",
   },
 ];
 

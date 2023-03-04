@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+button {
+    outline: 0 none;
+}
+
+.carousel-navi button {
+    position: absolute;
+    top: 0;
+    font-size: 0;
+    border: 0 none;
+    width: 70px;
+    height: 70px;
+    color: rgba(0,0,0,0);
+    background: none;
+}
+.carousel-navi button:before {
+    content: '';
+    position: absolute;
+    /* top: 50%; */
+}
+.carousel-navi button.clicked:before {
+    animation: carou selNaviClick .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes carouselNaviClick {
+    0% {
+        opacity: 1;
+        transform: scale(.4);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+.carousel-indicator button {
+    border: 0;
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+    margin: 0 1px;
+    background: #e4e4e4;
+    color: #444;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.carousel-indicator .current {
+    background: #2196f3;
+    width: 36px;
+}

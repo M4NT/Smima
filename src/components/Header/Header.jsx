@@ -26,6 +26,10 @@ const nav__links = [
     path: 'cart',
     display: 'Cart'
   },
+  {
+    path: 'login',
+    display: 'Login'
+  }
 
 ]
 

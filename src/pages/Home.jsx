@@ -6,6 +6,9 @@ import products from '../assets/data/products'
 
 import Helmet from '../components/Helmet/Helmet'
 import '../styles/home.css' 
+import '../styles/clock.css' 
+import '../styles/product-card.css'
+import '../styles/about-carousel.css'
 
 import { Container, Row, Col } from 'reactstrap'
 import heroImg from '../assets/images/hero-img.svg'
@@ -16,6 +19,8 @@ import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
 
 import Clock from '../components/UI/Clock'
+
+import AboutCarousel from '../components/UI/AboutCarousel'
 
 import counterImg from '../assets/images/counter-timer-img.png'
 
@@ -67,11 +72,12 @@ const Home = () => {
               <h2>Estar com nós, é apoiar a Natureza.</h2>
               <p>Descubra uma nova forma de se conectar com a natureza e<br/>
               cultivar um ambiente mais verde.</p>
-              <motion.button whileTap={{scale: 1.03}}
-              className="buy__btn">
-                <Link to='/shop'>Veja mais</Link></motion.button>
+                <motion.button whileTap={{scale: 1.03}}
+                className="buy__btn">
+                  <Link to='/shop'>Veja mais</Link>
+                </motion.button>
+                <img src={plantaAbout} alt="" class='planta__about'/> 
             </div>
-            {/* <img src={plantaAbout} alt="" class='planta__about'/>  */}
         </Row>
       </Container>
     </section>
@@ -82,11 +88,12 @@ const Home = () => {
           <Col lg='12' className='text-left'>
             <div className='about__card' >
                     <Col className='text-center'>
-                      <img src={vasoPlanta} alt="" class='vaso__about'/>
+                      <img src={vasoPlanta} alt="" class='vaso__about' id= 'about__plant'/>
                     </Col>
                     <Col>
                         <h2 className='about__title'>Sobre nós</h2>
                         <p className='about__subtitle' id='about__info'>Somos uma equipe de apaixonados por plantas e pela natureza, que acredita que a conexão com o meio ambiente é essencial para uma vida equilibrada e saudável. Além de oferecermos pacotes de assinatura de plantas, nosso objetivo é promover a conscientização sobre a importância da preservação da natureza e incentivar práticas sustentáveis. Queremos inspirar as pessoas a cuidar de suas plantas e a cuidar do planeta.</p>
+                        <button class="buy__btn store__btn" onClick={AboutCarousel}>Mudar</button>
                     </Col>
             </div>
           </Col>
@@ -94,7 +101,7 @@ const Home = () => {
       </Container>
     </section>
 
-    {/* <Services/> */}
+
     <section className='trending__products'>
       <Container>
         <Row>
@@ -106,7 +113,7 @@ const Home = () => {
       </Container>
     </section>
 
-    <section className='best__sales'>
+    {/* <section className='best__sales'>
       <Container>
         <Row>
           <Col lg='12' className='text-center'>
@@ -138,7 +145,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section> */}
 
     <section className='new_arrivals'>
       <Container>

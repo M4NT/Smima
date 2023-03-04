@@ -1,0 +1,15 @@
+.login__cardSignup {
+    background: rgba(245, 245, 245, 0.5);
+    border: 1px solid #FFFFFF;
+    box-shadow: 12px 9px 32px rgb(0 0 0 / 5%);
+    flex-direction: column;
+    flex-direction: row;
+    margin-top: -50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 60px;
+    padding-bottom: -80px;
+    border-radius: 40px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}

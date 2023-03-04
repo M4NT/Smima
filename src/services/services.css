@@ -8,13 +8,18 @@
     cursor: pointer;
 }
 
-.service__item span i {
+.service__item span img {
     font-size: 2.2rem;
     background: var(--primary-color);
     padding: 10px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     color: #fff;
     font-weight: 400 !important;
+}
+
+.service__item img {
+    width: 150px;
+    height: 200px;
 }
 
 .service__item h3 {
@@ -30,7 +35,7 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .service__item span i {
+    .service__item span img {
         font-size: 1.8rem;
         padding: 5px;
     }
@@ -46,7 +51,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .service__item span i {
+    .service__item span img {
         font-size: 1.5rem;
         padding: 5px;
     }

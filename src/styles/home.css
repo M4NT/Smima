@@ -12,6 +12,10 @@
     margin-top: -15px;
 }
 
+.hero__content {
+    margin-bottom: 150px;
+}
+
 .hero__section p:nth-child(1) {
     font-weight: 500;
     background: #D5EEC6;
@@ -69,8 +73,8 @@
     display: flex;
     flex-direction: column;
     flex-direction: row;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 270px;
+    margin-right: 270px;
     padding: 35px;
     /* left: 50%;
     transform: translate(-50%, -50%); */
@@ -87,7 +91,7 @@
 
 .about__subtitle {
     font-size: 1rem !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     text-align: left !important;
     margin-bottom: 25px;
     text-align: justify !important;
@@ -97,11 +101,12 @@
 .planta__about {
     width: 850px;
     height: 750px;
-    /* top: 71%; */
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 95px;
+    margin-top: -160px;
+    /* transform: translate(-50%, -23%); */
     position: absolute;
-    bottom: 0;
+    z-index: -1;
 }
 
 .vaso__about {
