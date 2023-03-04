@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# What is Smima?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Smima is an innovative company that aims to provide plant subscription plans for homes, offices and gardens. Our main objective is to supply high quality plants directly to our customers, serving intermediaries and guaranteeing an affordable price. Our company cares about ecological and social sustainability, which is why our products are organically grown and sourced from small local producers. We believe that our business is a trendsetter in the market and we are committed to providing unique benefits with each subscription plan, as well as offering high quality customer service along with our mobile app for interacting with customers in a community. . In this repository, the e-commerce front-end is being developed.
 
 ## Available Scripts
 
