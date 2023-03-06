@@ -18,7 +18,7 @@ const Services = () => {
                     whileHover={{ scale: 1.03 }}
                     className='service__item'
                     style={{ background: `${item.bg}` }}>
-                        <span className=''><img class={item.image}></img></span>
+                        <span className={item.image}><img src={item.image}/></span>
                         <div>
                             <h3>{item.title}</h3>
                             <p>{item.subtitle}</p>

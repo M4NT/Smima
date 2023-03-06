@@ -1,25 +1,23 @@
 .service__item {
     padding: 20px;
-
     display: flex;
     align-items: center;
     column-gap: 0.7rem;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 .service__item span img {
     font-size: 2.2rem;
-    background: var(--primary-color);
-    padding: 10px;
-    /* border-radius: 50px; */
+    /* background: var(--primary-color); */
+    /* padding: 10px; */
     color: #fff;
     font-weight: 400 !important;
 }
 
 .service__item img {
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .service__item h3 {

@@ -15,6 +15,8 @@ import heroImg from '../assets/images/hero-img.svg'
 import vasoPlanta from '../assets/images/vaso-planta.svg'
 import plantaAbout from '../assets/images/Agave.svg'
 
+
+
 import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
 
@@ -101,6 +103,7 @@ const Home = () => {
       </Container>
     </section>
 
+    <Services/>
 
     <section className='trending__products'>
       <Container>
