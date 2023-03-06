@@ -78,7 +78,7 @@ const Home = () => {
                 className="buy__btn">
                   <Link to='/shop'>Veja mais</Link>
                 </motion.button>
-                <img src={plantaAbout} alt="" class='planta__about'/> 
+                
             </div>
         </Row>
       </Container>
@@ -88,7 +88,9 @@ const Home = () => {
       <Container>
         <Row>
           <Col lg='12' className='text-left'>
+             
             <div className='about__card' >
+                    <img src={plantaAbout} alt="" class='planta__about'/>
                     <Col className='text-center'>
                       <img src={vasoPlanta} alt="" class='vaso__about' id= 'about__plant'/>
                     </Col>

@@ -102,11 +102,11 @@
     width: 850px;
     height: 750px;
     text-align: center;
-    margin-left: -28%;
-    margin-top: -160px;
+    margin-left: -50%;
+    top: -230px !important;
     left: 50%;
     position: absolute;
-    z-index: -1;
+    z-index: -15;
 }
 
 .vaso__about {
@@ -173,8 +173,6 @@
     .planta__about {
         width: 500px;
         height: 500px;
-        margin-left: 20%;
-        margin-right: -80%;
     }
 }
 
@@ -212,7 +210,6 @@
     .planta__about {
         width: 450px;
         height: 450px;
-        left: 50%;
     }
 }
 
@@ -235,23 +232,23 @@
         width: 150px;
         height: 150px;
         margin-left: -15px;
+        display: none;
     }
 
     .about__title {
         font-size: 2rem;
-        margin-left: -90px;
+        text-align: left;
+        margin-left: -75px;
     }
 
     .about__subtitle {
         font-size: 0.8rem;
-        margin-left: -90px;
+        margin-left: -155px;
     }
 
     .planta__about {
         width: 350px;
         height: 350px;
-        text-align: center;
-        top: 31%;
     }
 
 }
